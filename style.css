@@ -1,0 +1,36 @@
+.margin {
+    margin-left:20px;
+    margin-top:20px;
+}
+ 
+.hidden {
+    position: fixed;
+    top: 99999px;
+    left: 99999px;
+}
+ 
+#editor { 
+    position: relative;
+    height: 600px;
+    width : 600px;
+}
+
+.loading {
+    position:relative;
+    top:1px;
+    background:url(//raw.github.com/coderaiser/cloudcmd/dev/img/spinner.gif);
+}
+
+.icon {
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin-left:0.5%;
+    font-family: 'Octicons Regular';
+    font-size:16px;
+}
+
+.msg {
+    position: relative;
+    top: 11px;
+}
